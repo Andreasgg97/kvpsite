@@ -1,0 +1,329 @@
+/* Minitec orange   #ff5d02 */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Bootstrap padding fix */
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/* Body + Image */
+body {
+    overflow-x: hidden;
+    background: url(./img/white_bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Overpass', sans-serif;
+    /* color: #ff5d02; */
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Navigation */
+.navbar {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    background-color: rgba(255, 93, 2, 1) !important;
+}
+
+.navbar-brand img {
+    height: 60px;
+    margin: 5px;
+}
+
+.navbar-nav li {
+    padding-right: 1.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: 0.8rem;
+    text-shadow: 3px 3px 6px black;
+}
+
+/* Landing Page */
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 42%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    padding-bottom: 1.8rem;
+    text-shadow: 0.2rem 0.2rem 1rem black;
+}
+
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: 0.2rem 0.2rem 0.6rem black;
+    padding-bottom: 1.9rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0.1;
+    padding: 0.6rem 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Geschichte */
+.narrow {
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+}
+
+.narrow h1 {
+    font-size: 2.4rem;
+}
+
+/* Team */
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+}
+
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+    width: 7rem;
+    height: 0.2rem;
+    background-color: rgba(255, 93, 2, 1);
+    margin: 0 auto 2rem;
+}
+
+.heading-underline2 {
+    width: 3rem;
+    height: 0.1rem;
+    background-color: rgba(255, 93, 2, 1);
+    margin: 0 auto 2rem;
+}
+
+.feature img {
+    height: 500px;
+    padding-bottom: 2rem;
+    transition: 1s;
+}
+
+.feature img:hover {
+    transform: scale(1.05);
+}
+
+.feature h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+    font-weight: 600;
+}
+
+.feature p {
+    font-size: 1.1rem;
+}
+
+
+.col-md img {
+    height: 500px;
+}
+
+/* Projekte */
+#projekte h1 {
+    padding-top: 6.5rem;
+}
+
+#projekte img {
+    height: auto;
+}
+
+#projekte h4 {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-weight: 600;
+}
+
+#projektbox {
+    padding-bottom: 3rem;
+}
+
+/* News */
+#news h1 {
+    padding-top: 2.5rem;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    font-size: 1.3rem;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline>li {
+    margin: 20px 0;
+    padding-left: 45px;
+}
+
+ul.timeline>li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+ul.timeline>li>div>a {
+    font-size: 2.2rem;
+}
+
+ul.timeline>li>h5 {
+    display: flex;
+
+}
+
+ul.timeline>li>p {
+    margin-bottom: 4rem;
+}
+
+.col-md-6 img {
+    width: 80%;
+}
+
+.rounded {
+    border-radius: 20px !important;
+}
+
+/* Kontakt */
+
+footer {
+    background-color: #ff5d02;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+}
+
+footer img {
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+    color: #ff5d02 !important;
+}
+
+hr.socket {
+    width: 100%;
+    border-top: .2rem solid rgba(255, 137, 20, 0.6);
+    margin-top: 3rem;
+}
+
+
+/* Media Queries */
+@media (max-width: 375px) {
+    .caption h1 {
+        font-size: 1.5rem !important;
+        letter-spacing: 0.15rem !important;
+        padding-bottom: .3rem !important;
+    }
+
+    .caption h3 {
+        font-size: 0.9rem !important;
+        padding-bottom: 0.7rem !important;
+    }
+
+    .btn-lg {
+        padding: 0.2rem 0.3rem !important;
+        font-size: 0.6rem !important;
+        font-weight: 300 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .caption h1 {
+        font-size: 2.1rem;
+        letter-spacing: 0.15rem;
+        padding-bottom: .5rem;
+    }
+
+    .caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .btn-lg {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+}
+
+@media (max-width: 992px) {
+    #projekte img {
+        padding-top: 140px;
+        height: auto;
+    }
+
+}
